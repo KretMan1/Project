@@ -1,0 +1,55 @@
+body {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  line-height: 1.6;
+  color: #231f1f;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-image: url('Зображення/осінь2.png');
+  background-size: cover;
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #cc7338;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.festival-history, .festival-mission, .festival-goals {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #e87130;
+  color: #e87130;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #b25624;
+  color: white;
+  border: 2px solid white;
+}

@@ -1,0 +1,59 @@
+body {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 2rem;
+  line-height: 1.6;
+  color: #333;
+  background-color: #ffc59e;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.director-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.director {
+  background-color: #fff9f0;
+  padding: 1rem;
+  border: 1px solid #a18778;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 200px;
+  background-color: white;
+  border: 2px solid #a18778;
+  color: #a18778;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #ffffff;
+  color: #ffc59e;
+  scale: 1.1;
+}
